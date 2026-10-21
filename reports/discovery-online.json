@@ -1,0 +1,11 @@
+{
+  "visited": 10,
+  "fetched": 10,
+  "failed": 0,
+  "pending": 254,
+  "discovered": 264,
+  "scope": "SwiftUI root topicSections traversal; not all references or language variants",
+  "complete": false,
+  "read": 0,
+  "compiled": 0
+}

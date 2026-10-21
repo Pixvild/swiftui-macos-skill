@@ -1,0 +1,47 @@
+[
+  {
+    "id": "SW03",
+    "url": "https://developer.apple.com/documentation/swiftui/view/inspectorcolumnwidth(min:ideal:max:)",
+    "raw_sha256": "0a3abd9f6ca13b48f9727b686c4682087965c5444efb1b5748d5a28e6c3c81ca",
+    "platform_fields_equal": true,
+    "declaration_fields_equal": true,
+    "declarations_present_in_markdown": true,
+    "full_fidelity": "not_established"
+  },
+  {
+    "id": "SW04",
+    "url": "https://developer.apple.com/documentation/swiftui/window",
+    "raw_sha256": "9ffe8841a319f41d28acf2f56ef555eea517067f70f5ad526b299d594833c3e7",
+    "platform_fields_equal": true,
+    "declaration_fields_equal": true,
+    "declarations_present_in_markdown": true,
+    "full_fidelity": "not_established"
+  },
+  {
+    "id": "SW05",
+    "url": "https://developer.apple.com/documentation/swiftui/windowgroup/init(_:id:for:content:)-3hbmw",
+    "raw_sha256": "1bd318bec237e02c6e3d3a9d7e7c9be7b50dfb920eb7f3e487d34e2a26fe9f0a",
+    "platform_fields_equal": true,
+    "declaration_fields_equal": true,
+    "declarations_present_in_markdown": true,
+    "full_fidelity": "not_established"
+  },
+  {
+    "id": "SW07",
+    "url": "https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app",
+    "raw_sha256": "68c4a1c0c07da76b234eba7a2ca9683aa2c2bc70b714864f3f78efb743f098dc",
+    "platform_fields_equal": true,
+    "declaration_fields_equal": true,
+    "declarations_present_in_markdown": true,
+    "full_fidelity": "not_established"
+  },
+  {
+    "id": "SW17",
+    "url": "https://developer.apple.com/documentation/swiftui/nsviewrepresentable",
+    "raw_sha256": "40dc0c81a7d30001b080c3f0226953746a32229c5fda239f293ac38289bba506",
+    "platform_fields_equal": true,
+    "declaration_fields_equal": true,
+    "declarations_present_in_markdown": true,
+    "full_fidelity": "not_established"
+  }
+]

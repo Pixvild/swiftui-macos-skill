@@ -1,0 +1,13 @@
+interface:
+  display_name: SwiftUI macOS
+  short_description: macOS SwiftUI 开发、API 核验、焦点与文档编辑
+  default_prompt: 请使用 $swiftui-macos 处理当前 macOS SwiftUI 任务，先核对工程环境与官方依据，再给出方案或实现，并报告实际验证结果。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-21T15:31:50+00:00",
+  "host_os": "Linux",
+  "host_architecture": "x86_64",
+  "macos_validation_possible": false,
+  "deployment_targets": "not_inspected",
+  "swift_language_mode": "not_inspected",
+  "strict_concurrency": "not_inspected",
+  "default_actor_isolation": "not_inspected",
+  "project_build": "not_run",
+  "runtime_tests": "not_run",
+  "limitation": "A Swift executable on a non-macOS host does not provide macOS SwiftUI/AppKit verification.",
+  "commands": [
+    {
+      "status": "unavailable",
+      "command": [
+        "swift",
+        "--version"
+      ],
+      "exit_code": null,
+      "output": null
+    }
+  ]
+}

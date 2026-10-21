@@ -1,0 +1,72 @@
+test_all_references_include_non_topic_members_and_keep_overloads (test_collect_docs.CollectionTests.test_all_references_include_non_topic_members_and_keep_overloads) ... ok
+test_bad_identity_is_not_followed (test_collect_docs.CollectionTests.test_bad_identity_is_not_followed) ... {"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 1, "fetched": 0, "failed": 1, "pending": 0, "external_dependencies": 0, "complete": false, "read": 0, "compiled": 0}
+ok
+test_checkpoint_for_other_scope_is_rejected (test_collect_docs.CollectionTests.test_checkpoint_for_other_scope_is_rejected) ... {"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 1, "fetched": 1, "failed": 0, "pending": 0, "external_dependencies": 0, "complete": true, "read": 0, "compiled": 0}
+ok
+test_damaged_http_cache_is_quarantined_and_refetched (test_collect_docs.CollectionTests.test_damaged_http_cache_is_quarantined_and_refetched) ... ok
+test_failure_prevents_completion_and_retry_resumes (test_collect_docs.CollectionTests.test_failure_prevents_completion_and_retry_resumes) ... {"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 1, "fetched": 0, "failed": 1, "pending": 0, "external_dependencies": 0, "complete": false, "read": 0, "compiled": 0}
+{"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 1, "fetched": 1, "failed": 0, "pending": 0, "external_dependencies": 0, "complete": true, "read": 0, "compiled": 0}
+ok
+test_missing_raw_snapshot_is_refetched_on_retry (test_collect_docs.CollectionTests.test_missing_raw_snapshot_is_refetched_on_retry) ... {"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 1, "fetched": 1, "failed": 0, "pending": 0, "external_dependencies": 0, "complete": true, "read": 0, "compiled": 0}
+{"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 1, "fetched": 1, "failed": 0, "pending": 0, "external_dependencies": 0, "complete": true, "read": 0, "compiled": 0}
+ok
+test_queue_exhaustion_cycle_and_snapshots (test_collect_docs.CollectionTests.test_queue_exhaustion_cycle_and_snapshots) ... {"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 2, "fetched": 1, "failed": 0, "pending": 1, "external_dependencies": 0, "complete": false, "read": 0, "compiled": 0}
+{"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 2, "fetched": 2, "failed": 0, "pending": 0, "external_dependencies": 0, "complete": true, "read": 0, "compiled": 0}
+ok
+test_truncated_frontier_is_rebuilt_from_saved_raw (test_collect_docs.CollectionTests.test_truncated_frontier_is_rebuilt_from_saved_raw) ... {"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 2, "fetched": 1, "failed": 0, "pending": 1, "external_dependencies": 0, "complete": false, "read": 0, "compiled": 0}
+{"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 2, "fetched": 2, "failed": 0, "pending": 0, "external_dependencies": 0, "complete": true, "read": 0, "compiled": 0}
+ok
+test_bounded_resume_and_cycle (test_discovery.DiscoveryTests.test_bounded_resume_and_cycle) ... ok
+test_failure_does_not_hide_remaining_work (test_discovery.DiscoveryTests.test_failure_does_not_hide_remaining_work) ... ok
+test_only_topics_and_cross_framework_registration (test_discovery.DiscoveryTests.test_only_topics_and_cross_framework_registration) ... ok
+test_failed_offline_discovery_has_nonzero_exit (test_discovery_cli.DiscoveryCLITests.test_failed_offline_discovery_has_nonzero_exit) ... ok
+test_304_without_cache_is_error (test_doclib.CacheTests.test_304_without_cache_is_error) ... ok
+test_corrupt_cache_is_rejected (test_doclib.CacheTests.test_corrupt_cache_is_rejected) ... ok
+test_force_omits_cache_validators (test_doclib.CacheTests.test_force_omits_cache_validators) ... ok
+test_offline_cache_miss_is_error (test_doclib.CacheTests.test_offline_cache_miss_is_error) ... ok
+test_offline_never_calls_transport (test_doclib.CacheTests.test_offline_never_calls_transport) ... ok
+test_online_failure_does_not_claim_cached_success (test_doclib.CacheTests.test_online_failure_does_not_claim_cached_success) ... ok
+test_online_revalidates_even_when_cached (test_doclib.CacheTests.test_online_revalidates_even_when_cached) ... ok
+test_redirect_target_validation (test_doclib.CacheTests.test_redirect_target_validation) ... ok
+test_structured_json_precedes_markdown (test_doclib.EndpointPreferenceTests.test_structured_json_precedes_markdown) ... ok
+test_encoded_overload_normalization (test_doclib.IdentityTests.test_encoded_overload_normalization) ... ok
+test_fragment_query_case_normalization (test_doclib.IdentityTests.test_fragment_query_case_normalization) ... ok
+test_overloads_remain_distinct (test_doclib.IdentityTests.test_overloads_remain_distinct) ... ok
+test_reject_unsafe_urls (test_doclib.IdentityTests.test_reject_unsafe_urls) ... ok
+test_declaration_and_platform_metadata_preserved (test_doclib.RenderingTests.test_declaration_and_platform_metadata_preserved) ... ok
+test_html_javascript_error_and_empty_are_rejected (test_doclib.RenderingTests.test_html_javascript_error_and_empty_are_rejected) ... ok
+test_json_wrong_page_is_rejected (test_doclib.RenderingTests.test_json_wrong_page_is_rejected) ... ok
+test_markdown_accepts_text_and_does_not_infer_versions (test_doclib.RenderingTests.test_markdown_accepts_text_and_does_not_infer_versions) ... ok
+test_missing_availability_stays_unknown (test_doclib.RenderingTests.test_missing_availability_stays_unknown) ... ok
+test_notes_code_parameters_links_media_preserved (test_doclib.RenderingTests.test_notes_code_parameters_links_media_preserved) ... ok
+test_unknown_nodes_are_reported (test_doclib.RenderingTests.test_unknown_nodes_are_reported) ... ok
+test_unresolved_reference_warns (test_doclib.RenderingTests.test_unresolved_reference_warns) ... ok
+test_variants_are_not_silently_discarded (test_doclib.RenderingTests.test_variants_are_not_silently_discarded) ... ok
+test_rows_tabs_definitions_and_link_grids_keep_content (test_doclib.RichStructureTests.test_rows_tabs_definitions_and_link_grids_keep_content) ... ok
+test_exports_body_and_index_and_checks_hashes (test_export_collection.ExportTests.test_exports_body_and_index_and_checks_hashes) ... {"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 1, "fetched": 1, "failed": 0, "pending": 0, "external_dependencies": 0, "complete": true, "read": 0, "compiled": 0}
+ok
+test_fake_empty_frontier_does_not_pass_complete_verification (test_export_collection.ExportTests.test_fake_empty_frontier_does_not_pass_complete_verification) ... {"updated_at": "2026-10-21T15:54:47+00:00", "scope": "Closure of SwiftUI documentation URLs in DocC references, topicSections and seeAlsoSections from the SwiftUI root; external frameworks recorded, not fetched; raw language variants retained, not independently traversed.", "discovered": 2, "fetched": 1, "failed": 0, "pending": 1, "external_dependencies": 0, "complete": false, "read": 0, "compiled": 0}
+ok
+test_rejects_unfinished_collection (test_export_collection.ExportTests.test_rejects_unfinished_collection) ... ok
+test_complete_report_contains_artifact_location (test_publish_report.PublishReportTests.test_complete_report_contains_artifact_location) ... ok
+test_incomplete_corpus_cannot_publish (test_publish_report.PublishReportTests.test_incomplete_corpus_cannot_publish) ... ok
+test_bad_platform_record_marks_page_failed_without_aborting (test_regressions.RegressionTests.test_bad_platform_record_marks_page_failed_without_aborting) ... ok
+test_bad_reference_records_failure_and_continues (test_regressions.RegressionTests.test_bad_reference_records_failure_and_continues) ... ok
+test_changed_source_identity_does_not_relabel_old_snapshot (test_regressions.RegressionTests.test_changed_source_identity_does_not_relabel_old_snapshot) ... ok
+test_malformed_metadata_raises_controlled_error (test_regressions.RegressionTests.test_malformed_metadata_raises_controlled_error) ... ok
+test_metadata_failure_leaves_old_snapshot_intact (test_regressions.RegressionTests.test_metadata_failure_leaves_old_snapshot_intact) ... ok
+test_retry_pending_does_not_inflate_discovered_count (test_regressions.RegressionTests.test_retry_pending_does_not_inflate_discovered_count) ... ok
+test_unavailable_mac_is_not_supported (test_regressions.RegressionTests.test_unavailable_mac_is_not_supported) ... ok
+test_unrecognized_nonempty_identifier_is_rejected (test_regressions.RegressionTests.test_unrecognized_nonempty_identifier_is_rejected) ... ok
+test_failed_pages_are_not_search_results (test_search_catalog.SearchTests.test_failed_pages_are_not_search_results) ... ok
+test_finds_specific_overload_without_merging (test_search_catalog.SearchTests.test_finds_specific_overload_without_merging) ... ok
+test_platform_filter_retains_unknown_articles (test_search_catalog.SearchTests.test_platform_filter_retains_unknown_articles) ... ok
+test_required_documents_exist (test_skill.SkillContractTests.test_required_documents_exist) ... ok
+test_skill_entry_exists (test_skill.SkillContractTests.test_skill_entry_exists) ... ok
+test_offline_failure_keeps_existing_snapshot (test_sync_cli.SyncCLITests.test_offline_failure_keeps_existing_snapshot) ... ok
+test_offline_sync_writes_snapshot_without_marking_read (test_sync_cli.SyncCLITests.test_offline_sync_writes_snapshot_without_marking_read) ... ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 0.331s
+
+OK

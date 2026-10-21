@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "title": "SwiftUI",
+      "kind": "symbol",
+      "role": "collection",
+      "platforms": [
+        {
+          "introducedAt": "13.0",
+          "name": "iOS"
+        },
+        {
+          "introducedAt": "13.0",
+          "name": "iPadOS"
+        },
+        {
+          "introducedAt": "13.0",
+          "name": "Mac Catalyst"
+        },
+        {
+          "introducedAt": "10.15",
+          "name": "macOS"
+        },
+        {
+          "introducedAt": "13.0",
+          "name": "tvOS"
+        },
+        {
+          "introducedAt": "1.0",
+          "name": "visionOS"
+        },
+        {
+          "introducedAt": "6.0",
+          "name": "watchOS"
+        }
+      ],
+      "url": "https://developer.apple.com/documentation/swiftui",
+      "status": "fetched",
+      "sha256": "0d16de0601909e61c059ef7c38dd9daa5a73805a56e914cdf73334124c71c70c",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "Unsupported block node: links",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "listed",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "Accessibility fundamentals",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/accessibility-fundamentals",
+      "status": "fetched",
+      "sha256": "6fa4ba609cedc1bd6d2254efbb0e0696ffd79b7c0e6853082d647c60619a73b8",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "Accessible appearance",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/accessible-appearance",
+      "status": "fetched",
+      "sha256": "9e090f2810edbab283f2afac9a7a53eb77fa497d38645e5c99d8b1cdf4e1bad4",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "Accessible controls",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/accessible-controls",
+      "status": "fetched",
+      "sha256": "e4dd6ebab8bd59df23d80d7146e41b026510406c9c89893b3ebd8d7a7cb89aaf",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "Accessible descriptions",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/accessible-descriptions",
+      "status": "fetched",
+      "sha256": "b7804060315a380abc463b96b242c52ae39fa0e17b1e2f5f1bea69ea2c6f7c15",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "Accessible navigation",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/accessible-navigation",
+      "status": "fetched",
+      "sha256": "99016a01baee278799437ad89ef790909708dbd0e6f283846b2791c121b0670d",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "Animations",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/animations",
+      "status": "fetched",
+      "sha256": "7b587d4ac0a3e4c6dc4ca760867b0819b2abe6ae880198d6111ffbfedacd6272",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "App extensions",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/app-extensions",
+      "status": "fetched",
+      "sha256": "a3ea417413cbeebe81dd57b9c70952aed89619b23827cffc8d17f602b8222d01",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "App organization",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/app-organization",
+      "status": "fetched",
+      "sha256": "b7dc007a107ac4c0da0d36f5d107093781ea06acc9625419bacb7e22da1afa78",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    },
+    {
+      "title": "AppKit integration",
+      "kind": "article",
+      "role": "collectionGroup",
+      "platforms": null,
+      "url": "https://developer.apple.com/documentation/swiftui/appkit-integration",
+      "status": "fetched",
+      "sha256": "b564201728d530a770fdd8414d814aa745d8ffcabd4b1a7b1d322405d740d9dd",
+      "warnings": [
+        "Media links retained; images/videos not inspected or downloaded",
+        "variants retained in raw JSON; not fully interpreted",
+        "DocC subset renderer: full-document and visual fidelity have not been established"
+      ],
+      "macos_status": "unknown",
+      "read_status": "not_reviewed",
+      "build_status": "not_run"
+    }
+  ]
+}

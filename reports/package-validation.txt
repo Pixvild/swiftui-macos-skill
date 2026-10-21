@@ -1,0 +1,1 @@
+PASS: skill frontmatter, required files, source identities, catalog, JSON and local file links. Host/behavior checks not included.

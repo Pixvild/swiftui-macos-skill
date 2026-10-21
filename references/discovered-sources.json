@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "D692affe97a4bae3f761e",
+      "url": "https://developer.apple.com/documentation/swiftui",
+      "document_key": "692affe97a4bae3f761e"
+    },
+    {
+      "id": "D48ba04986168acf625b6",
+      "url": "https://developer.apple.com/documentation/swiftui/accessibility-fundamentals",
+      "document_key": "48ba04986168acf625b6"
+    },
+    {
+      "id": "D05adce327eefac1d209b",
+      "url": "https://developer.apple.com/documentation/swiftui/accessible-appearance",
+      "document_key": "05adce327eefac1d209b"
+    },
+    {
+      "id": "Dfa7b57022f148f04f5ff",
+      "url": "https://developer.apple.com/documentation/swiftui/accessible-controls",
+      "document_key": "fa7b57022f148f04f5ff"
+    },
+    {
+      "id": "Df3cc0f8b749d543f8219",
+      "url": "https://developer.apple.com/documentation/swiftui/accessible-descriptions",
+      "document_key": "f3cc0f8b749d543f8219"
+    },
+    {
+      "id": "D0a8e2d838319bf6d6d73",
+      "url": "https://developer.apple.com/documentation/swiftui/accessible-navigation",
+      "document_key": "0a8e2d838319bf6d6d73"
+    },
+    {
+      "id": "D2f8ab6af60eab9c73203",
+      "url": "https://developer.apple.com/documentation/swiftui/animations",
+      "document_key": "2f8ab6af60eab9c73203"
+    },
+    {
+      "id": "D9046845609b65b4331fe",
+      "url": "https://developer.apple.com/documentation/swiftui/app-extensions",
+      "document_key": "9046845609b65b4331fe"
+    },
+    {
+      "id": "D8139df8d540f2d5a04fe",
+      "url": "https://developer.apple.com/documentation/swiftui/app-organization",
+      "document_key": "8139df8d540f2d5a04fe"
+    },
+    {
+      "id": "D3986f2db888b3123883a",
+      "url": "https://developer.apple.com/documentation/swiftui/appkit-integration",
+      "document_key": "3986f2db888b3123883a"
+    }
+  ]
+}

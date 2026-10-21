@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "kind": "seed_catalog_not_full_api_inventory",
+  "topics": [
+    {
+      "topic": "navigation",
+      "guide": "guides/navigation-and-inspectors.md",
+      "source_ids": [
+        "SW02",
+        "SW03"
+      ]
+    },
+    {
+      "topic": "windows",
+      "guide": "guides/windows-and-scenes.md",
+      "source_ids": [
+        "SW04",
+        "SW05",
+        "SW06"
+      ]
+    },
+    {
+      "topic": "state",
+      "guide": "guides/state-and-observation.md",
+      "source_ids": [
+        "SW07",
+        "SW08"
+      ]
+    },
+    {
+      "topic": "commands",
+      "guide": "guides/commands-and-focus.md",
+      "source_ids": [
+        "SW09",
+        "SW10",
+        "SW11",
+        "SW20"
+      ]
+    },
+    {
+      "topic": "documents",
+      "guide": "guides/text-and-documents.md",
+      "source_ids": [
+        "SW12",
+        "SW13",
+        "SW14",
+        "SW15",
+        "SW16"
+      ]
+    },
+    {
+      "topic": "appkit",
+      "guide": "guides/appkit-integration.md",
+      "source_ids": [
+        "SW17",
+        "SW18",
+        "SW19"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "SW01",
+      "document_key": "692affe97a4bae3f761e",
+      "title": "SwiftUI framework",
+      "url": "https://developer.apple.com/documentation/swiftui",
+      "topic": "overview",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW02",
+      "document_key": "726f36878debe55fbb83",
+      "title": "Navigation",
+      "url": "https://developer.apple.com/documentation/swiftui/navigation",
+      "topic": "navigation",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW03",
+      "document_key": "87547169ef507cd3eb9d",
+      "title": "inspectorColumnWidth(min:ideal:max:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/inspectorcolumnwidth(min:ideal:max:)",
+      "topic": "navigation",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW04",
+      "document_key": "e15280b7689b71cb96c9",
+      "title": "Window",
+      "url": "https://developer.apple.com/documentation/swiftui/window",
+      "topic": "windows",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW05",
+      "document_key": "5cc51e0c37254de95a7d",
+      "title": "WindowGroup.init(_:id:for:content:)",
+      "url": "https://developer.apple.com/documentation/swiftui/windowgroup/init(_:id:for:content:)-3hbmw",
+      "topic": "windows",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW06",
+      "document_key": "2beb701095b0254e37e4",
+      "title": "Settings.init(content:)",
+      "url": "https://developer.apple.com/documentation/swiftui/settings/init(content:)",
+      "topic": "windows",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW07",
+      "document_key": "2f611c72b8bd2a75ef1e",
+      "title": "Managing model data in your app",
+      "url": "https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app",
+      "topic": "state",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW08",
+      "document_key": "081b845630c2d6f56620",
+      "title": "Model data",
+      "url": "https://developer.apple.com/documentation/swiftui/model-data",
+      "topic": "state",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW09",
+      "document_key": "0b308dff755ca0366d22",
+      "title": "FocusState",
+      "url": "https://developer.apple.com/documentation/swiftui/focusstate",
+      "topic": "commands",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW10",
+      "document_key": "71b7adffab95d26d3d49",
+      "title": "FocusedValue",
+      "url": "https://developer.apple.com/documentation/swiftui/focusedvalue",
+      "topic": "commands",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW11",
+      "document_key": "4ca9844066510e74dfd3",
+      "title": "Building and customizing the menu bar with SwiftUI",
+      "url": "https://developer.apple.com/documentation/swiftui/building-and-customizing-the-menu-bar-with-swiftui",
+      "topic": "commands",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW12",
+      "document_key": "b73c7f02f13858c15ed4",
+      "title": "DocumentGroup",
+      "url": "https://developer.apple.com/documentation/swiftui/documentgroup",
+      "topic": "documents",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW13",
+      "document_key": "1131a19096f78869eed6",
+      "title": "DocumentGroup.init(newDocument:editor:)",
+      "url": "https://developer.apple.com/documentation/swiftui/documentgroup/init(newdocument:editor:)",
+      "topic": "documents",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW14",
+      "document_key": "a45e7447d716a391def3",
+      "title": "Building a document-based app with SwiftUI",
+      "url": "https://developer.apple.com/documentation/swiftui/building-a-document-based-app-with-swiftui",
+      "topic": "documents",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW15",
+      "document_key": "b02c8bf9d909c2bbe582",
+      "title": "TextEditor.init(text:)",
+      "url": "https://developer.apple.com/documentation/swiftui/texteditor/init(text:)",
+      "topic": "documents",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW16",
+      "document_key": "6bf573e673b0d944154f",
+      "title": "Building rich SwiftUI text experiences",
+      "url": "https://developer.apple.com/documentation/swiftui/building-rich-swiftui-text-experiences",
+      "topic": "documents",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW17",
+      "document_key": "83d5b30fd23276b2162a",
+      "title": "NSViewRepresentable",
+      "url": "https://developer.apple.com/documentation/swiftui/nsviewrepresentable",
+      "topic": "appkit",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW18",
+      "document_key": "569115a0b63dc7089328",
+      "title": "NSHostingView",
+      "url": "https://developer.apple.com/documentation/swiftui/nshostingview",
+      "topic": "appkit",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW19",
+      "document_key": "97b3baedc9639dd83339",
+      "title": "NSViewRepresentable.makeCoordinator()",
+      "url": "https://developer.apple.com/documentation/swiftui/nsviewrepresentable/makecoordinator()",
+      "topic": "appkit",
+      "availability": "unknown"
+    },
+    {
+      "id": "SW20",
+      "document_key": "4d3fc2c0c1e3c0658b4d",
+      "title": "focusedSceneValue(_:_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/focusedscenevalue(_:_:)",
+      "topic": "commands",
+      "availability": "unknown"
+    }
+  ]
+}

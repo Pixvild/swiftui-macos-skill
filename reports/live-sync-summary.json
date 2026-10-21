@@ -1,0 +1,161 @@
+[
+  {
+    "id": "SW03",
+    "url": "https://developer.apple.com/documentation/swiftui/view/inspectorcolumnwidth(min:ideal:max:)",
+    "status": "fetched",
+    "format": "docc_json_subset",
+    "title": "inspectorColumnWidth(min:ideal:max:)",
+    "platforms": [
+      {
+        "introducedAt": "17.0",
+        "name": "iOS"
+      },
+      {
+        "introducedAt": "17.0",
+        "name": "iPadOS"
+      },
+      {
+        "introducedAt": "17.0",
+        "name": "Mac Catalyst"
+      },
+      {
+        "introducedAt": "14.0",
+        "name": "macOS"
+      }
+    ],
+    "declaration_count": 1,
+    "sha256": "0a3abd9f6ca13b48f9727b686c4682087965c5444efb1b5748d5a28e6c3c81ca",
+    "checked_at": "2026-10-21T15:27:10+00:00",
+    "warnings": [
+      "variants retained in raw JSON; not fully interpreted",
+      "DocC subset renderer: full-document and visual fidelity have not been established"
+    ],
+    "read_status": "not_reviewed",
+    "build_status": "not_run"
+  },
+  {
+    "id": "SW04",
+    "url": "https://developer.apple.com/documentation/swiftui/window",
+    "status": "fetched",
+    "format": "docc_json_subset",
+    "title": "Window",
+    "platforms": [
+      {
+        "introducedAt": "13.0",
+        "name": "macOS"
+      },
+      {
+        "introducedAt": "26.0",
+        "name": "visionOS"
+      }
+    ],
+    "declaration_count": 1,
+    "sha256": "9ffe8841a319f41d28acf2f56ef555eea517067f70f5ad526b299d594833c3e7",
+    "checked_at": "2026-10-21T15:27:17+00:00",
+    "warnings": [
+      "variants retained in raw JSON; not fully interpreted",
+      "DocC subset renderer: full-document and visual fidelity have not been established"
+    ],
+    "read_status": "not_reviewed",
+    "build_status": "not_run"
+  },
+  {
+    "id": "SW05",
+    "url": "https://developer.apple.com/documentation/swiftui/windowgroup/init(_:id:for:content:)-3hbmw",
+    "status": "fetched",
+    "format": "docc_json_subset",
+    "title": "init(_:id:for:content:)",
+    "platforms": [
+      {
+        "introducedAt": "16.0",
+        "name": "iOS"
+      },
+      {
+        "introducedAt": "16.0",
+        "name": "iPadOS"
+      },
+      {
+        "introducedAt": "16.0",
+        "name": "Mac Catalyst"
+      },
+      {
+        "introducedAt": "13.0",
+        "name": "macOS"
+      },
+      {
+        "introducedAt": "1.0",
+        "name": "visionOS"
+      }
+    ],
+    "declaration_count": 1,
+    "sha256": "1bd318bec237e02c6e3d3a9d7e7c9be7b50dfb920eb7f3e487d34e2a26fe9f0a",
+    "checked_at": "2026-10-21T15:27:24+00:00",
+    "warnings": [
+      "variants retained in raw JSON; not fully interpreted",
+      "DocC subset renderer: full-document and visual fidelity have not been established"
+    ],
+    "read_status": "not_reviewed",
+    "build_status": "not_run"
+  },
+  {
+    "id": "SW07",
+    "url": "https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app",
+    "status": "fetched",
+    "format": "docc_json_subset",
+    "title": "Managing model data in your app",
+    "platforms": [
+      {
+        "introducedAt": "17.0",
+        "name": "iOS"
+      },
+      {
+        "introducedAt": "17.0",
+        "name": "iPadOS"
+      },
+      {
+        "introducedAt": "17.0",
+        "name": "Mac Catalyst"
+      },
+      {
+        "introducedAt": "14.0",
+        "name": "macOS"
+      },
+      {
+        "introducedAt": "15.0",
+        "name": "Xcode"
+      }
+    ],
+    "declaration_count": 0,
+    "sha256": "68c4a1c0c07da76b234eba7a2ca9683aa2c2bc70b714864f3f78efb743f098dc",
+    "checked_at": "2026-10-21T15:27:31+00:00",
+    "warnings": [
+      "variants retained in raw JSON; not fully interpreted",
+      "DocC subset renderer: full-document and visual fidelity have not been established"
+    ],
+    "read_status": "not_reviewed",
+    "build_status": "not_run"
+  },
+  {
+    "id": "SW17",
+    "url": "https://developer.apple.com/documentation/swiftui/nsviewrepresentable",
+    "status": "fetched",
+    "format": "docc_json_subset",
+    "title": "NSViewRepresentable",
+    "platforms": [
+      {
+        "introducedAt": "10.15",
+        "name": "macOS"
+      }
+    ],
+    "declaration_count": 1,
+    "sha256": "40dc0c81a7d30001b080c3f0226953746a32229c5fda239f293ac38289bba506",
+    "checked_at": "2026-10-21T15:27:37+00:00",
+    "warnings": [
+      "variantOverrides retained in raw JSON; not fully interpreted",
+      "variants retained in raw JSON; not fully interpreted",
+      "DocC subset renderer: full-document and visual fidelity have not been established"
+    ],
+    "read_status": "not_reviewed",
+    "build_status": "not_run"
+  }
+]

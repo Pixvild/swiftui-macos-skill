@@ -1,0 +1,46 @@
+test_bounded_resume_and_cycle (test_discovery.DiscoveryTests.test_bounded_resume_and_cycle) ... ok
+test_failure_does_not_hide_remaining_work (test_discovery.DiscoveryTests.test_failure_does_not_hide_remaining_work) ... ok
+test_only_topics_and_cross_framework_registration (test_discovery.DiscoveryTests.test_only_topics_and_cross_framework_registration) ... ok
+test_failed_offline_discovery_has_nonzero_exit (test_discovery_cli.DiscoveryCLITests.test_failed_offline_discovery_has_nonzero_exit) ... ok
+test_304_without_cache_is_error (test_doclib.CacheTests.test_304_without_cache_is_error) ... ok
+test_corrupt_cache_is_rejected (test_doclib.CacheTests.test_corrupt_cache_is_rejected) ... ok
+test_force_omits_cache_validators (test_doclib.CacheTests.test_force_omits_cache_validators) ... ok
+test_offline_cache_miss_is_error (test_doclib.CacheTests.test_offline_cache_miss_is_error) ... ok
+test_offline_never_calls_transport (test_doclib.CacheTests.test_offline_never_calls_transport) ... ok
+test_online_failure_does_not_claim_cached_success (test_doclib.CacheTests.test_online_failure_does_not_claim_cached_success) ... ok
+test_online_revalidates_even_when_cached (test_doclib.CacheTests.test_online_revalidates_even_when_cached) ... ok
+test_redirect_target_validation (test_doclib.CacheTests.test_redirect_target_validation) ... ok
+test_structured_json_precedes_markdown (test_doclib.EndpointPreferenceTests.test_structured_json_precedes_markdown) ... ok
+test_encoded_overload_normalization (test_doclib.IdentityTests.test_encoded_overload_normalization) ... ok
+test_fragment_query_case_normalization (test_doclib.IdentityTests.test_fragment_query_case_normalization) ... ok
+test_overloads_remain_distinct (test_doclib.IdentityTests.test_overloads_remain_distinct) ... ok
+test_reject_unsafe_urls (test_doclib.IdentityTests.test_reject_unsafe_urls) ... ok
+test_declaration_and_platform_metadata_preserved (test_doclib.RenderingTests.test_declaration_and_platform_metadata_preserved) ... ok
+test_html_javascript_error_and_empty_are_rejected (test_doclib.RenderingTests.test_html_javascript_error_and_empty_are_rejected) ... ok
+test_json_wrong_page_is_rejected (test_doclib.RenderingTests.test_json_wrong_page_is_rejected) ... ok
+test_markdown_accepts_text_and_does_not_infer_versions (test_doclib.RenderingTests.test_markdown_accepts_text_and_does_not_infer_versions) ... ok
+test_missing_availability_stays_unknown (test_doclib.RenderingTests.test_missing_availability_stays_unknown) ... ok
+test_notes_code_parameters_links_media_preserved (test_doclib.RenderingTests.test_notes_code_parameters_links_media_preserved) ... ok
+test_unknown_nodes_are_reported (test_doclib.RenderingTests.test_unknown_nodes_are_reported) ... ok
+test_unresolved_reference_warns (test_doclib.RenderingTests.test_unresolved_reference_warns) ... ok
+test_variants_are_not_silently_discarded (test_doclib.RenderingTests.test_variants_are_not_silently_discarded) ... ok
+test_bad_platform_record_marks_page_failed_without_aborting (test_regressions.RegressionTests.test_bad_platform_record_marks_page_failed_without_aborting) ... ok
+test_bad_reference_records_failure_and_continues (test_regressions.RegressionTests.test_bad_reference_records_failure_and_continues) ... ok
+test_changed_source_identity_does_not_relabel_old_snapshot (test_regressions.RegressionTests.test_changed_source_identity_does_not_relabel_old_snapshot) ... ok
+test_malformed_metadata_raises_controlled_error (test_regressions.RegressionTests.test_malformed_metadata_raises_controlled_error) ... ok
+test_metadata_failure_leaves_old_snapshot_intact (test_regressions.RegressionTests.test_metadata_failure_leaves_old_snapshot_intact) ... ok
+test_retry_pending_does_not_inflate_discovered_count (test_regressions.RegressionTests.test_retry_pending_does_not_inflate_discovered_count) ... ok
+test_unavailable_mac_is_not_supported (test_regressions.RegressionTests.test_unavailable_mac_is_not_supported) ... ok
+test_unrecognized_nonempty_identifier_is_rejected (test_regressions.RegressionTests.test_unrecognized_nonempty_identifier_is_rejected) ... ok
+test_failed_pages_are_not_search_results (test_search_catalog.SearchTests.test_failed_pages_are_not_search_results) ... ok
+test_finds_specific_overload_without_merging (test_search_catalog.SearchTests.test_finds_specific_overload_without_merging) ... ok
+test_platform_filter_retains_unknown_articles (test_search_catalog.SearchTests.test_platform_filter_retains_unknown_articles) ... ok
+test_required_documents_exist (test_skill.SkillContractTests.test_required_documents_exist) ... ok
+test_skill_entry_exists (test_skill.SkillContractTests.test_skill_entry_exists) ... ok
+test_offline_failure_keeps_existing_snapshot (test_sync_cli.SyncCLITests.test_offline_failure_keeps_existing_snapshot) ... ok
+test_offline_sync_writes_snapshot_without_marking_read (test_sync_cli.SyncCLITests.test_offline_sync_writes_snapshot_without_marking_read) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.177s
+
+OK

@@ -51,4 +51,20 @@ python3 scripts/search_catalog.py --catalog references/local/discovery/catalog.j
 
 ## 已验证与待办
 
-本轮 41 项自动化测试通过，5 个种子页面在线同步成功；导航实际处理 10 页，发现 264 条目，254 待处理。详细时间与摘要见 reports/。仍需完善 DocC 变体支持、验证更多真实结构、在 macOS/Xcode 构建并验证交互。尚未进行系统性的有/无技能代理 A/B 评测；不发布正式 Release。
+本轮 55 项自动化测试通过，5 个种子页面在线同步成功；导航实际处理 10 页，发现 264 条目，254 待处理。详细时间与摘要见 reports/。仍需完善 DocC 变体支持、验证更多真实结构、在 macOS/Xcode 构建并验证交互。尚未进行系统性的有/无技能代理 A/B 评测；不发布正式 Release。
+
+## 全量采集与完成后合并
+
+`collect-full.yml` 在开发分支更新采集代码时启动。采集从 SwiftUI 根页遍历内部 DocC 文档引用闭包，跨框架另行登记；并发限速，保存队列与原始 JSON。恢复时从原始响应重建遗漏队列，隔离损坏 HTTP 缓存。
+
+```bash
+python3 scripts/collect_docs.py --retry-failed
+python3 scripts/export_collection.py --require-complete
+python3 scripts/search_catalog.py --catalog references/local/full/export/catalog.json --platform macOS
+```
+
+逐页正文、原始数据和自动索引保存在工作流的 `swiftui-official-complete-*` 采集存档。存档默认保留 90 天；它不是永久镜像。下载后解压至 `references/local/full`，阅读 `export/lookup.md`，按需打开 `export/official/*.md`。完成后生成的 `references/full-coverage.md` 会给出真实计数和下载入口，`references/full-catalog.json` 与 `references/full-sources.json` 保存完整检索清单。
+
+只有队列及失败均为零、原始引用图闭包与文件散列通过核对、生成结果提交后在 Python 3.9/3.13 上通过远端测试，流程才会将 PR #1 标为可合并并按用户授权合并。任何采集或验证失败都会阻止合并，不把未链接页面、语言变体解释、媒体核对或 macOS 编译算作完成。
+
+[参考仓库采集核查](docs/collection-reference-review.md) 记录了实际阅读的源码、采用的做法与没有照搬的边界。

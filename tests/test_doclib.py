@@ -186,3 +186,19 @@ class EndpointPreferenceTests(unittest.TestCase):
         candidates = lib.endpoint_candidates(URL)
         self.assertTrue(candidates[0].endswith('.json'))
         self.assertTrue(candidates[1].endswith('.md'))
+
+class RichStructureTests(unittest.TestCase):
+    def test_rows_tabs_definitions_and_link_grids_keep_content(self):
+        fixture = copy.deepcopy(FIXTURE)
+        fixture['primaryContentSections'].append({'kind':'content','content':[
+            {'type':'row','columns':[{'content':[{'type':'paragraph','inlineContent':[{'type':'text','text':'Card text'}]}]}]},
+            {'type':'tabNavigator','tabs':[{'title':'Mac example','content':[{'type':'paragraph','inlineContent':[{'type':'text','text':'Tabbed text'}]}]}]},
+            {'type':'termList','items':[{'term':{'inlineContent':[{'type':'codeVoice','code':'input'}]},'definition':{'content':[{'type':'paragraph','inlineContent':[{'type':'text','text':'Input description'}]}]}}]},
+            {'type':'links','items':['doc://test/other']},
+            {'type':'paragraph','inlineContent':[{'type':'link','destination':'https://developer.apple.com/example','title':'Explicit label'}]},
+        ]})
+        fixture['primaryContentSections'].append({'kind':'mentions','mentions':['doc://test/other']})
+        result=lib.parse_payload(json.dumps(fixture).encode(),'application/json',URL)
+        for text in ['Card text','Mac example','Tabbed text','Input description','[Explicit label](https://developer.apple.com/example)','## Mentions']:
+            self.assertIn(text,result['markdown'])
+        self.assertFalse(any('Unsupported' in w for w in result['warnings']))

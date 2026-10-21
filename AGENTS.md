@@ -17,4 +17,4 @@ python3 scripts/validate_skill.py
 
 Inspect reports and record missing macOS, live-network and actual-agent evaluation. Offline synthetic fixtures are not a substitute for these checks.
 
-The synchronization script only implements a conservative subset renderer and explicit source-list retrieval. Unknown DocC structures must be surfaced, with raw JSON retained; they must not be silently discarded. Recheck URL allowlists, cache freshness, overload identity and failure behavior after any change.
+The explicit-list synchronizer and full-reference collector implement a conservative DocC renderer. Full collection must independently verify raw graph closure and hashes before completion or merging. Unknown DocC structures must be surfaced, with raw JSON retained; they must not be silently discarded. Recheck URL allowlists, cache freshness, overload identity and failure behavior after any change.

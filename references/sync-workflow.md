@@ -49,3 +49,11 @@ macos_status 的 listed 表示该页列有 macOS（不保证当前工程兼容�
 ## 检索
 
 `python3 scripts/search_catalog.py Window` 检索种子目录。通过 `--catalog references/local/discovery/catalog.json --platform macOS` 检索发现目录。按关键词匹配记录（包括声明），保留不同 URL 的重载；平台未知条目保留，失败页排除。输出是候选资料，不能据此保证部署兼容。
+
+## 完整引用图采集
+
+`python3 scripts/collect_docs.py --retry-failed` 沿根页 DocC references 遍历 SwiftUI 内部链接，而非只展开主题导航。限速并发，保存可恢复状态、原始 JSON 和转换快照；不跨框架采集。只接受可验证的文档身份；恢复时重建遗漏的链接队列并重新获取损坏的快照。
+
+`python3 scripts/export_collection.py --require-complete` 从原始响应重新核对散列和引用图闭包，再生成可读正文、机器目录和主题路由表。队列被截断不能据此通过完成检查。未知渲染结构和语言变体保持警告，原始数据始终保留。
+
+自动流程见 `.github/workflows/collect-full.yml`：成功时保留完整采集存档、发布完整索引与覆盖报告；对生成提交执行 Python 3.9/3.13 远端测试后才可合并已授权的 PR #1。失败不合并。工作流缓存与存档均有保留期限，不能冒充永久离线资料库。

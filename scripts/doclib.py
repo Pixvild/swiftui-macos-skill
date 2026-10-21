@@ -199,9 +199,13 @@ class Renderer:
                 code = node.get('code', '')
                 tick = '`' * (max([len(m.group()) for m in re.finditer(r'`+', code)], default=0) + 1)
                 result.append(tick + code + tick)
-            elif kind in ('emphasis', 'strong', 'strikethrough'):
-                mark = {'emphasis': '*', 'strong': '**', 'strikethrough': '~~'}[kind]
+            elif kind in ('emphasis', 'newTerm', 'strong', 'strikethrough'):
+                mark = {'emphasis': '*', 'newTerm': '*', 'strong': '**', 'strikethrough': '~~'}[kind]
                 result.append(mark + self.inline(children) + mark)
+            elif kind == 'link':
+                target = node.get('destination') or node.get('url') or ''
+                label = self.inline(node.get('titleInlineContent', [])) or node.get('title') or target
+                result.append('[' + label + '](' + urllib.parse.urljoin(BASE, target) + ')')
             elif kind == 'reference':
                 override = node.get('overridingTitle') or (self.inline(node.get('overridingTitleInlineContent')) if node.get('overridingTitleInlineContent') else None)
                 result.append(self.reference(node.get('identifier'), override))
@@ -240,6 +244,19 @@ class Renderer:
                 out.append('\n'.join('> ' + line for line in text.splitlines()))
             elif kind in ('image', 'video'):
                 out.append(self.reference(node.get('identifier'), node.get('alt')))
+            elif kind == 'row':
+                for column in node.get('columns', []):
+                    out.append(self.blocks(column.get('content', [])))
+            elif kind == 'tabNavigator':
+                for tab in node.get('tabs', []):
+                    out.append('### ' + tab.get('title', 'Tab'))
+                    out.append(self.blocks(tab.get('content', [])))
+            elif kind == 'termList':
+                for item in node.get('items', []):
+                    out.append('**' + self.inline(item.get('term', {}).get('inlineContent', [])) + '**')
+                    out.append(self.blocks(item.get('definition', {}).get('content', [])))
+            elif kind == 'links':
+                out.append('\n'.join('- ' + self.reference(identifier) for identifier in node.get('items', [])))
             elif kind == 'table':
                 rows = [[self.blocks(cell).replace('\n', '<br>').replace('|', '\\|') for cell in row] for row in node.get('rows', [])]
                 if rows:
@@ -310,6 +327,8 @@ def _parse_payload(body: bytes, content_type: str, source_url: str) -> dict:
                     out.extend(['### ' + parameter.get('name', 'unnamed'), renderer.blocks(parameter.get('content', []))])
             elif kind in ('returns', 'throws'):
                 out.extend(['## ' + kind.title(), renderer.blocks(section.get('content', []))])
+            elif kind == 'mentions':
+                out.extend(['## Mentions', '\n'.join('- ' + renderer.reference(item) for item in section.get('mentions', []))])
             else:
                 renderer.warn('Unsupported primary section: ' + str(kind))
         for group in document.get('topicSections', []) + document.get('seeAlsoSections', []):

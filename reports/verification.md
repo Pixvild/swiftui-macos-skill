@@ -4,7 +4,7 @@
 
 ## 结果
 
-- `python3 -m unittest discover -s tests -v`：41 项通过，退出码 0。日志见 test-results.txt。
+- `python3 -m unittest discover -s tests -v`：55 项通过，退出码 0。日志见 test-results.txt。
 - `python3 scripts/validate_skill.py`：检查文件、元数据、索引和本地链接。实际输出见 package-validation.txt。
 - `python3 scripts/discover_docs.py --limit 2`，随后 `--limit 8`：10 页成功，0 失败，264 条目被发现，254 待处理，均退出 0。统计见 discovery-online.json。
 - `python3 scripts/sync_docs.py --id SW03 --id SW05 --id SW04 --id SW07 --id SW17 --timeout 10 --retries 0`：5 页成功，均为 DocC JSON 转换。原始状态、散列与警告摘要见 live-sync-summary.json。
@@ -25,3 +25,9 @@
 未运行 macOS/Xcode 构建、输入法、焦点、撤销、多窗口、无障碍交互。未全量获取 SwiftUI，未逐页核对全文、图片或语言变体；实际页面仍报告 variants/variantOverrides 及保真度警告。下载不登记为已读，样例不登记为已编译。
 
 CI 配置验证 Python 3.9/3.13，但本轮本机只运行 Python 3.12；远端 Actions 是否运行通过必须另查，不能用本地结果代替。仓库只有开发预览代码、作者指南、来源与元数据摘要，不上传 Apple 正文缓存。
+
+## 全量流程扩展验证
+
+已按参考仓库补充逐页正文导出及自动索引，并加入完整引用图采集、限速并发、原始快照恢复和 HTTP 缓存隔离。独立审查后增加原始引用图闭包检查，防止仅清空队列就误判完成。新增内容在 Linux/Python 3.12 上实际运行，当前 55 项测试通过，工作流 YAML 和 shell 语法通过。
+
+新增工作流将在真实采集完成、原始散列和闭包核对成功、生成提交通过远端 Python 3.9/3.13 验证后才合并。此处只记录流程已经实现，不能提前将正在进行的全量采集或其未来 CI 结果记为成功。最终采集数量以工作流生成的 reports/full-coverage.json 为准。

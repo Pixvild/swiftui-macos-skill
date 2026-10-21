@@ -11,6 +11,8 @@ description: Use when developing, debugging, reviewing, or migrating macOS Swift
 
 先读取当前生效的项目指令及相关源码。区分解释、审查、实现和排错：只问方案时不改代码；要求实现时按现有工程作最小必要修改。
 
+如有 `references/full-coverage.md`，先读其完整采集范围与正文存档位置；本地已解压时用 `references/local/full/export/catalog.json` 检索，再打开对应正文。未下载正文时不可把完整目录当作已经读过正文。
+
 读取 [覆盖边界](references/coverage.md) 和 [主题索引](references/swiftui-lookup.md)，再读所需主题，避免整库加载。
 
 实现前核对实际 Xcode、SDK、target 的部署目标、Swift 语言模式及并发设置。可用 `python3 scripts/probe_environment.py` 读取工具链；在技能目录外执行时使用已发现的技能绝对路径。此脚本不读取 target 配置，不能代替工程检查。
